@@ -23,13 +23,14 @@ header{
 }
 
 nav ul{
-display: flex;
-font-size: 0.9em;
-margin: 0;
-font-family: 'Open Sans', sans-serif;
-font-size: 14px;
-font-weight: 600;
-padding-right: 40px;
+    display: flex;
+    font-size: 0.9em;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 40px;
+    align-items: flex-end;
 }
 
 nav ul li {
@@ -83,13 +84,16 @@ figcaption {
     height: 125px;
 }
 
-.editorspicks {
-    background: #efefef;
+.editor {
+    background: rgb(249, 249, 249);
     border-top: 1px solid rgb(204, 204, 204);
-     border-bottom: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    height: 620px;
+    width: 100%;
+    margin-bottom: 
 }
 
-.editorspicks h1 {
+.editor h1 {
 text-align: center;
 font-family: 'Open Sans', sans-serif;
 font-size: 17px;
@@ -98,14 +102,14 @@ margin-top: 30px;
 
 }
 
-.editor{
-    margin-bottom: 20px;
-     display: flex;
-justify-content: center;
+.editorspicks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
-.editor figure {
+.editorspicks figure {
     margin: 20px;
     width: 500px;
 }
@@ -139,11 +143,14 @@ aside img {
 .newsletter {
     text-align: center;
     background: rgb(249, 249, 249);
-    height: 300px;
+    height: 360px;
     font-family: 'Open Sans', sans-serif;
     font-size: 36px;
     font-weight: 600;
-    margin: auto
+    margin: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .date {
@@ -164,7 +171,9 @@ input {
     border: 1px solid rgb(174, 174, 174);
     border-radius: 4px;
     height: 40px;
-    width: 280px;
+    width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
 }
 
 button { 
@@ -187,15 +196,34 @@ footer {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 13.5px;
+    height: 395px;
+    display: flex;
+    align-items: center;
 }
 
 footer ul {
     text-transform: uppercase;
     display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+footer img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 footer ul li {
     list-style: none;
     margin-right: 20px;
     justify-content: center;
+}
+
+.mentionslegales{
+    width: 100%;
+}
+
+footer .apropos{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
