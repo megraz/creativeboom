@@ -3,6 +3,8 @@ body{
     width: 100%;
 }
 
+/*header*/
+
 
 header{
     display: flex;
@@ -18,7 +20,7 @@ header{
 }
 
 #logo{
-    width: 250px;
+    min-width: 250px;
     padding-left: 45px;
 }
 
@@ -38,10 +40,13 @@ nav ul li {
     padding-right: 20px;
 }
 
+/*article en une*/
+
 .banniere{
     background: url(../images/banniere.jpeg);
     background-size: cover;
     height: 590px;
+    width: 100%;
     margin-top:0;
 }
 
@@ -58,72 +63,91 @@ nav ul li {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*galerie d'articles*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
 .articles{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     width: 95%;
-    margin: auto;
-    padding-top: 30px;  
-}
-
-.articles img{
-    width: 380px;
 }
 
 figure {
-    width: 380px;  
-    margin: auto;
+    width: 31%; 
+    height: 50%;
+    margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 600;
 }
+
+figure img{
+    width: 100%;
+}
  
 figcaption {
-    height: 125px;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 45px;
 }
 
+/*rubrique editor's picks*/
+
 .editor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: rgb(249, 249, 249);
     border-top: 1px solid rgb(204, 204, 204);
     border-bottom: 1px solid rgb(204, 204, 204);
-    height: 620px;
-    width: 100%;
-    margin-bottom: 
+    margin-bottom: 60px;
+    height: 50%;
+    width: 100%; 
+
 }
 
 .editor h1 {
-text-align: center;
-font-family: 'Open Sans', sans-serif;
-font-size: 17px;
-font-weight: bold;
-margin-top: 30px;
-
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .editorspicks{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    justify-content: space-around;
+    width:  95%;
 }
 
 .editorspicks figure {
-    margin: 20px;
-    width: 500px;
+    width: 46%;
+    margin: 0;
 }
 
+.editorspicks figure img{
+    width: 100%;
+}
 
+/*bandeau publicitaire*/
 aside {
-    padding-top: 20px;
     text-align: center;
     margin-bottom: 30px;
     width: 100%;
 }
 
 aside img {
-    width: 95%;
+    width: 93%;
 }
 
 .loadmore {
@@ -144,6 +168,7 @@ aside img {
     text-align: center;
     background: rgb(249, 249, 249);
     height: 360px;
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 36px;
     font-weight: 600;
