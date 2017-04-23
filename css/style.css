@@ -100,6 +100,15 @@ figcaption {
     margin-bottom: 45px;
 }
 
+.date {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+     font-weight: 500;
+     padding-top: 0;
+     color: grey;
+     margin-top: -10px;
+}
+
 /*rubrique editor's picks*/
 
 .editor {
@@ -140,6 +149,7 @@ figcaption {
 }
 
 /*bandeau publicitaire*/
+
 aside {
     text-align: center;
     margin-bottom: 30px;
@@ -149,6 +159,8 @@ aside {
 aside img {
     width: 93%;
 }
+
+/*bouton load more*/
 
 .loadmore {
     font-family: 'Open Sans', sans-serif;
@@ -164,6 +176,8 @@ aside img {
     margin-bottom: 100px;
 }
 
+/*formulaire newsletter*/
+
 .newsletter {
     text-align: center;
     background: rgb(249, 249, 249);
@@ -176,15 +190,6 @@ aside img {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.date {
-     font-family: 'Open Sans', sans-serif;
-     font-size: 14px;
-     font-weight: 500;
-     padding-top: 0;
-     color: grey;
-     margin-top: -10px;
 }
 
 form {
@@ -211,9 +216,16 @@ button {
     font-size: 16px;
 }
 
+/*réseaux sociaux*/
+
 .reseaux {
-    height: 100px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/*footer*/
 
 footer {
     background: #222;
@@ -248,7 +260,7 @@ footer ul li {
     width: 100%;
 }
 
-footer .apropos{
+.apropos{
     margin-top: 30px;
     margin-bottom: 30px;
 }
