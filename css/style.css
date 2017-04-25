@@ -6,7 +6,7 @@ body{
 /*header*/
 
 
-.grand{
+.bigheader{
     display: flex;
     width: 100%;
     height: 75px;
@@ -19,7 +19,7 @@ body{
     z-index: 5;
 }
 
-.petit{
+.smallheader{
     display: none;
 }
 
@@ -36,14 +36,13 @@ nav ul{
     font-size: 14px;
     font-weight: 600;
     padding-right: 25px;
-
 }
 
 nav ul li {
     list-style: none;
-    margin-right: 7px;
-    font-size: 0.9em;  
-    padding: 6px;
+    font-size: 13px;  
+    padding: 12px;
+    margin-right: 6px;
 }
 
 
@@ -53,31 +52,37 @@ nav ul li:hover:not(#search) {
     border-radius: 5px;
 }
 
- nav .premierniveau ul {
+ nav .menu ul {
   display: none;
     background: black;
     color: white;
     position: absolute;
-    padding-bottom: 15px;
-    width: 150px;
-        padding-right: 6px;
+    padding: 15px;
+    width: 170px;
+    margin-left: -12px;
+
 }
 
-
- nav .premierniveau ul li:not(:last-child) {
-     border-bottom:1px solid grey;
+ nav .menu ul li {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 10px;
  }
 
 nav li:hover ul{
     display: block;
 }
 
-.premierniveau ul li:hover{
+nav .menu li:not(:last-child) {
+    border-bottom:1px solid grey;
+ }
+
+nav .menu ul li:hover{
     background: white;
     color: black;
 }
 
-/*article en une*/
+/*lead article*/
 
 .banniere{
     background: url(../images/banniere.jpeg);
@@ -112,7 +117,7 @@ nav li:hover ul{
     left: 55px;
 }
 
-/*galerie d'articles*/
+/*articles gallery*/
 
 main {
     display: flex;
@@ -167,7 +172,7 @@ figcaption {
     text-decoration: underline;
 }
 
-/*rubrique editor's picks*/
+/*editor's picks section*/
 
 .editor {
     display: flex;
@@ -206,7 +211,7 @@ figcaption {
     width: 100%;
 }
 
-/*bandeau publicitaire*/
+/*banner ad*/
 
 aside {
     text-align: center;
@@ -218,7 +223,7 @@ aside img {
     width: 93%;
 }
 
-/*bouton load more*/
+/*load more button*/
 
 .loadmore {
     font-family: 'Open Sans', sans-serif;
@@ -239,7 +244,7 @@ aside img {
     color: white;
 }
 
-/*formulaire newsletter*/
+/*newsletter form*/
 
 .newsletter {
     text-align: center;
@@ -279,7 +284,7 @@ button {
     font-size: 16px;
 }
 
-/*réseaux sociaux*/
+/*social networks section*/
 
 .reseaux {
     height: 130px;
@@ -355,7 +360,7 @@ footer a:hover {
     z-index: 5;
 }
 
-.petit{
+.smallheader{
     display: flex;
     width: 100%;
     height: 48px;
@@ -369,7 +374,7 @@ footer a:hover {
     padding-left: 30px;
 }
 
-.grand{
+.bigheader{
     display: none;
 }
 
@@ -414,12 +419,12 @@ figcaption {
 }
 
 .date {
-     font-family: 'Open Sans', sans-serif;
-     font-size: 14px;
-     font-weight: 500;
-     padding-top: 0;
-     color: grey;
-     margin-top: -10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 0;
+    color: grey;
+    margin-top: -10px;
 }
 }
 
