@@ -33,20 +33,18 @@ nav ul{
     align-items: center;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
     padding-right: 25px;
 }
 
 nav ul li {
     list-style: none;
-    font-size: 13px;  
+    font-size: 14px;  
     padding: 12px;
     margin-right: 6px;
 }
 
 
-nav ul li:hover:not(#search) {
+nav > ul > li:hover:not(#search) {
     color: white;
     background: black;
     border-radius: 5px;
@@ -54,19 +52,20 @@ nav ul li:hover:not(#search) {
 
  nav .menu ul {
   display: none;
-    background: black;
-    color: white;
     position: absolute;
     padding: 15px;
     width: 170px;
     margin-left: -12px;
+    background: black;
 
 }
 
  nav .menu ul li {
+    text-decoration: none;
     font-size: 16px;
     font-weight: 500;
     line-height: 10px;
+    color: white
  }
 
 nav li:hover ul{
@@ -108,13 +107,21 @@ nav .menu ul li:hover{
 .banniere p {
     color: white;
     font-size: 14px;
-    line-height: 1.1;
     width: 400px;
     padding-right: 20px;
     position: relative;
     font-family: 'Open Sans', sans-serif;
-    top: 365px;
+    top: 350px;
     left: 55px;
+}
+
+.banniere > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+.banniere > p > a:hover {
+    text-decoration: underline;
 }
 
 /*articles gallery*/
@@ -141,7 +148,7 @@ figure {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 figure img{
