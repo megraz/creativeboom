@@ -70,7 +70,7 @@ nav a:hover:not(#search) {
     margin-top:0;
 }
 
-.banniere p {
+.banniere h2 {
     color: white;
     font-size: 36px;
     font-weight: 600;
@@ -81,6 +81,18 @@ nav a:hover:not(#search) {
     top: 370px;
     left: 55px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.banniere p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.1;
+    width: 400px;
+    padding-right: 20px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    top: 365px;
+    left: 55px;
 }
 
 /*galerie d'articles*/
@@ -283,6 +295,7 @@ footer ul {
 footer img{
     padding-top: 10px;
     padding-bottom: 20px;
+    width: 70px;
 }
 footer ul li {
     list-style: none;
