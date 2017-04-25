@@ -16,31 +16,35 @@
             <a href="#"><img src="images/logo.svg" alt="logo"></a>
         </div>
         <nav>
-            <ul>            
-                    <li><a href="#">ABOUT</a></li>         
-                    <li><a href="#">INSPIRATION <img src="images/fleche.png" alt="flèche" class="display"></a></li>          
-                    <li><a href="#">TIPS <img src="images/fleche.png" alt="flèche" class="display"></a></li>          
-                    <li><a href="#">RESOURCES <img src="images/fleche.png" alt="flèche" class="display"></a></li>
-                    <li><a href="#">FEATURES <img src="images/fleche.png" alt="flèche" class="display"></a></li>
-                    <li><a href="#"><img src="images/loupe.png" alt="loupe" class="display"> </a></li>
+            <ul>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">INSPIRATION ▾</a></li>
+                <li><a href="#">TIPS ▾ </a></li>
+                <li><a href="#">RESOURCES ▾</a></li>
+                <li><a href="#">FEATURES ▾</a></li>
+                <li>
+                    <a href="#" id="search"><img src="images/loupe.png" alt="loupe"> </a>
+                </li>
             </ul>
         </nav>
-        
+
     </header>
 
-       <header class="petit">
+    <header class="petit">
         <img src="images/menu.png" id="menu" alt="menu">
         <div class="logo">
             <a href="#"><img src="images/logo.svg" alt="logo"></a>
         </div>
         <nav>
             <ul>
-                
-                    <li><a href="#"><img src="images/loupe.png" alt="loupe" class="display"> </a></li>
-               
+
+                <li>
+                    <a href="#"><img src="images/loupe.png" alt="loupe" class="display"> </a>
+                </li>
+
             </ul>
         </nav>
-        
+
     </header>
 
     <div class="banniere">
@@ -122,13 +126,13 @@
 
     <!--bandeau pub 1-->
     <aside>
-        <img src="images/adobe.jpg">
+        <img src="images/adobe.jpg" alt="adobe">
     </aside>
 
 
     <!--galerie d'articles 2-->
     <main>
-        <sectiob class="articles">
+        <section class="articles">
             <figure>
                 <img src="images/article11.jpg" alt="bureau">
                 <figcaption>
@@ -140,7 +144,7 @@
                 <img src="images/article12.jpg" alt="bureau">
                 <figcaption>
                     <p>This Must Be The Place: Hannah Warren's illustrations of cycling in London</p>
-                    <p class="date">  20th April in <a href="#">Inspiration / Illustration </a></p>
+                    <p class="date"> 20th April in <a href="#">Inspiration / Illustration </a></p>
                 </figcaption>
             </figure>
             <figure>
@@ -154,7 +158,7 @@
                 <img src="images/article14.jpg" alt="bureau">
                 <figcaption>
                     <p>Save time and effort: speed up document sign-off with Eversign </p>
-                    <p class="date"> 19th April in <<a href="#">Resources / Tools</a></p>
+                    <p class="date"> 19th April in <a href="#">Resources / Tools</a></p>
                 </figcaption>
             </figure>
             <figure>
@@ -171,13 +175,13 @@
                     <p class="date"> 19th April in <a href="#">Resources / Tools</a></p>
                 </figcaption>
             </figure>
-            </section>
+        </section>
     </main>
 
 
     <!--bandeau pub 2-->
     <aside>
-        <img src="images/pub2.jpg">
+        <img src="images/pub2.jpg" alt="pub">
     </aside>
 
 
@@ -232,13 +236,16 @@
 
     <!--bouton load more-->
     <section class="loadmore">
-        <a href="#"><p>Load more</p></a>
+        <a href="#">
+            <p>Load more</p>
+        </a>
     </section>
 
 
     <!--newsletter-->
     <section class="newsletter">
-        <div class="boxnewsletter" <p>Get the best of Creative Boom <br/>delivered to your inbox weekly</p>
+        <div class="boxnewsletter">
+            <p>Get the best of Creative Boom <br/>delivered to your inbox weekly</p>
             <form action="/ma-page-de-traitement" method="post">
                 <input type="text" id="nom" placeholder="Your email..." />
                 <button type="submit">Suscribe</button>
@@ -249,21 +256,21 @@
 
     <!--bandeau réseaux sociaux-->
     <section class="reseaux">
-        <img src="images/reseaux.png">
+        <img src="images/reseaux.png" alt="réseaux">
     </section>
 
 
     <!--pied de page-->
     <footer>
         <div class="mentionslegales">
-            <img src="images/avatar.svg" width="70px">
+            <img src="images/avatar.svg" width="70px" alt="avatar">
             <ul>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Contact</li></a>
-                <a href="#"><li>Advertising &amp; Partnerships</li></a>
-                <a href="#"><li>How to Get Featured</li></a>
-                <a href="#"><li>Archive</li></a>
-                <a href="#"><li>Privacy</li></a>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Advertising &amp; Partnerships</a></li>
+                <li><a href="#">How to Get Featured</a></li>
+                <li><a href="#">Archive</a></li>
+                <li><a href="#">Privacy</a></li>
             </ul>
             <p class="apropos">Creative Boom celebrates, inspires and supports the creative community.<br/> Launched in 2009, we love to explore
                 the very best creativity and offer tips, <br/>resources and advice to help you succeed.

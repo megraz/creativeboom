@@ -41,14 +41,23 @@ nav ul{
 
 nav ul li {
     list-style: none;
-    padding-right: 26px;
-     font-size: 0.9em;
-     width: 
+    margin-right: 7px;
+    font-size: 0.9em;  
+    padding: 5px;
 }
 
 nav a {
     text-decoration: none;
     color: black;
+        padding: 5px;
+}
+
+nav a:hover:not(#search) {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /*article en une*/
