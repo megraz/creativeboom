@@ -319,7 +319,7 @@ footer a:hover {
 .petit{
     display: flex;
     width: 100%;
-    height: 75px;
+    height: 48px;
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -335,8 +335,8 @@ footer a:hover {
 }
 
 
-#logo{
-    min-width: 200px;
+.logo img{
+    height: 19px;
 }
 
 main {
