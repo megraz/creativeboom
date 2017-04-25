@@ -43,21 +43,38 @@ nav ul li {
     list-style: none;
     margin-right: 7px;
     font-size: 0.9em;  
-    padding: 5px;
+    padding: 6px;
 }
 
-nav a {
-    text-decoration: none;
-    color: black;
-        padding: 5px;
-}
 
-nav a:hover:not(#search) {
-    text-decoration: none;
+nav ul li:hover:not(#search) {
     color: white;
     background: black;
-    padding: 5px;
     border-radius: 5px;
+}
+
+ nav .premierniveau ul {
+  display: none;
+    background: black;
+    color: white;
+    position: absolute;
+    padding-bottom: 15px;
+    width: 150px;
+        padding-right: 6px;
+}
+
+
+ nav .premierniveau ul li:not(:last-child) {
+     border-bottom:1px solid grey;
+ }
+
+nav li:hover ul{
+    display: block;
+}
+
+.premierniveau ul li:hover{
+    background: white;
+    color: black;
 }
 
 /*article en une*/
