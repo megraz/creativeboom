@@ -259,7 +259,7 @@ aside img {
     height: 360px;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 36px;
+    font-size: 2em;
     font-weight: 600;
     margin: auto; 
     display: flex;
@@ -279,6 +279,7 @@ input {
     width: 250px;
     font-family: 'Open Sans', sans-serif;
     padding-left: 10px;
+    margin: 7px;
 }
 
 button { 
@@ -321,16 +322,18 @@ footer ul {
     margin-bottom: 30px;
 }
 
-footer img{
-    padding-top: 10px;
-    padding-bottom: 20px;
-    width: 70px;
-}
 footer ul li {
     list-style: none;
     margin-right: 20px;
     justify-content: center;
 }
+
+footer img{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 70px;
+}
+
 
 footer a {
     text-decoration: none;
@@ -432,6 +435,40 @@ figcaption {
     padding-top: 0;
     color: grey;
     margin-top: -10px;
+}
+
+footer ul {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13.5px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+footer ul {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+}
+
+@media screen and (max-width: 550px){
+.newsletter {
+    font-size: 1.1em;
+
 }
 }
 
