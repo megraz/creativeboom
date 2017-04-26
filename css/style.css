@@ -1,3 +1,4 @@
+
 body{
     margin:0;
     width: 100%;
@@ -26,6 +27,8 @@ body{
 .logo{
     min-width: 250px;
     padding-left: 45px;
+    animation-name: animLogo;
+    animation-duration: 3s;
 }
 
 nav ul{
@@ -411,31 +414,8 @@ main {
 figure {
     width: 47%; 
     height: 20%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
 }
 
-figure img{
-    width: 100%;
-}
- 
-figcaption {
-    width: 100%;
-    height: 70%;
-    margin-bottom: 45px;
-}
-
-.date {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    padding-top: 0;
-    color: grey;
-    margin-top: -10px;
-}
 
 footer ul {
     text-transform: uppercase;
@@ -468,8 +448,21 @@ footer ul {
 @media screen and (max-width: 550px){
 .newsletter {
     font-size: 1.1em;
-
 }
+
+figure {
+    width: 95%; 
+    height: 10%;
+}
+}
+
+@Keyframes animLogo {
+    0% {
+opacity: 0;
+    }
+    100% {
+opacity: 100%;
+    }
 }
 
 
