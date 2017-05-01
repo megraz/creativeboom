@@ -149,15 +149,13 @@ nav .menu ul li a:hover{
     font-family: 'Open Sans', sans-serif;
     top: 350px;
     left: 55px;
-            animation-name: animLogo;
+    animation-name: animLogo;
     animation-duration: 2s;
 }
 
-.banniere > p > a {
+.banniere a {
     text-decoration: none;
     color: white;
-            animation-name: animLogo;
-    animation-duration: 2s;
 }
 
 .banniere > p > a:hover {
@@ -181,6 +179,10 @@ main {
     width: 95%;
     margin: auto;
     margin-bottom: 0;
+}
+
+.leadarticle{
+    display: none;
 }
 
 article {
@@ -485,6 +487,16 @@ footer ul {
 }
 
 @media screen and (max-width: 550px){
+
+.banniere{
+    display: none;
+}
+
+.leadarticle{
+    display: block;
+    margin-top: 70px;
+}
+
 .newsletter {
     font-size: 1.1em;
 }
