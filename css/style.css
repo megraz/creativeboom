@@ -6,7 +6,6 @@ body{
 
 /*header*/
 
-
 .bigheader{
     display: flex;
     width: 100%;
@@ -120,7 +119,8 @@ nav .menu ul li a:hover{
     height: 590px;
     width: 100%;
     margin-top:0;
-        animation-name: animLogo;
+    margin-bottom: 35px;
+    animation-name: animLogo;
     animation-duration: 2s;
 }
 
@@ -179,14 +179,14 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 95%;
-    margin-bottom: 40px;
+    margin: auto;
+    margin-bottom: 0;
 }
 
 article {
     width: 31%; 
     height: 52%;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 30px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: bold;
@@ -230,7 +230,7 @@ article img{
     background: rgb(249, 249, 249);
     border-top: 1px solid rgb(204, 204, 204);
     border-bottom: 1px solid rgb(204, 204, 204);
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     height: 50%;
     width: 100%; 
 
@@ -443,7 +443,7 @@ main {
 
 }
 
-.articles{
+.articlesgallery{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
