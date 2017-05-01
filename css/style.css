@@ -4,7 +4,7 @@ body{
     width: 100%;
 }
 
-/*header*/
+/*-------------------------header-------------------------*/
 
 .bigheader{
     display: flex;
@@ -111,7 +111,7 @@ nav .menu ul li a:hover{
     color: black;
 }
 
-/*lead article*/
+/*-------------------------lead article-------------------------*/
 
 .banniere{
     background: url(../images/banniere.jpeg);
@@ -162,15 +162,7 @@ nav .menu ul li a:hover{
     text-decoration: underline;
 }
 
-/*articles gallery*/
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 25px;
-
-}
+/*-------------------------articles gallery-------------------------*/
 
 .articlesgallery{
     display: flex;
@@ -178,7 +170,7 @@ main {
     justify-content: space-around;
     width: 95%;
     margin: auto;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .leadarticle{
@@ -187,11 +179,10 @@ main {
 
 article {
     width: 31%; 
-    height: 52%;
-    margin-bottom: 30px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 
@@ -202,7 +193,6 @@ article img{
 .legende {
     width: 100%;
     height: 70%;
-    margin-bottom: 45px;
 }
 
 .date {
@@ -223,18 +213,17 @@ article img{
     text-decoration: underline;
 }
 
-/*editor's picks section*/
+/*-------------------------editor's picks section-------------------------*/
 
 .editor {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%; 
+    margin-bottom: 40px;
     background: rgb(249, 249, 249);
     border-top: 1px solid rgb(204, 204, 204);
     border-bottom: 1px solid rgb(204, 204, 204);
-    margin-bottom: 40px;
-    height: 50%;
-    width: 100%; 
 
 }
 
@@ -249,8 +238,10 @@ article img{
 
 .editorspicks{
     display: flex;
+ flex-wrap: wrap;
     justify-content: space-around;
     width:  95%;
+    margin-bottom: 25px;
 }
 
 .editorspicks article {
@@ -262,7 +253,7 @@ article img{
     width: 100%;
 }
 
-/*banner ad*/
+/*-------------------------banner ad-------------------------*/
 
 aside {
     text-align: center;
@@ -274,7 +265,7 @@ aside img {
     width: 93%;
 }
 
-/*load more button*/
+/*-------------------------load more button-------------------------*/
 
 .loadmore {
     font-family: 'Open Sans', sans-serif;
@@ -295,7 +286,7 @@ aside img {
     color: white;
 }
 
-/*newsletter form*/
+/*-------------------------newsletter form-------------------------*/
 
 .newsletter {
     text-align: center;
@@ -336,7 +327,7 @@ button {
     font-size: 16px;
 }
 
-/*social networks section*/
+/*-------------------------social networks section-------------------------*/
 
 .reseaux {
     height: 130px;
@@ -345,7 +336,7 @@ button {
     align-items: center;
 }
 
-/*footer*/
+/*-------------------------footer-------------------------*/
 
 footer {
     background: #222;
@@ -397,7 +388,7 @@ footer a:hover {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-/*responsive design*/
+/*-------------------------responsive design-------------------------*/
 
 @media screen and (max-width: 1024px){
 
@@ -437,25 +428,11 @@ footer a:hover {
     height: 19px;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 25px;
-
-}
-
-.articlesgallery{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 95%;
-}
 
 article {
     width: 47%; 
-    height: 20%;
 }
+
 
 
 footer ul {
@@ -497,15 +474,26 @@ footer ul {
     margin-top: 70px;
 }
 
+article {
+    width: 95%; 
+}
+
+.editorspicks{
+    width:  95%;
+}
+
+.editorspicks article {
+    width: 95%;
+    margin: 0;
+}
+
 .newsletter {
     font-size: 1.1em;
 }
 
-article {
-    width: 95%; 
-    height: 10%;
 }
-}
+
+/*-------------------------animations-------------------------*/
 
 @Keyframes animLogo {
     0% {
